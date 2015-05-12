@@ -33,3 +33,13 @@ Time to string.
 From my understanding, a time can be represented in some many
 different string formats, that defining an explicit conversion
 could be potential confusing.
+
+NOTE:
+String is the only core class that implements :to_str
+but all core classes who need a string call #to_str
+
+so anytime we are extending, a string to have more convience methods, but extracting it out to a class, then adding to_str
+
+
+Random thought:
+How can I iterate over all the core classes in ruby?
