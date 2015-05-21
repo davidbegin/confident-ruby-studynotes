@@ -23,3 +23,9 @@ module Toolbox3
     "stuff3"
   end
 end
+
+p Toolbox1.stuff1
+p Toolbox2.stuff2
+
+extend Toolbox3
+p stuff3
